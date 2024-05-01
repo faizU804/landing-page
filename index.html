@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerece Store for online purchasing Products</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilis.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="flipkart-plus_8d85f4.png" alt="" />
+            </div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" name="" id="" placeholder="   Search Here " />
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="slider">
+                <img src="https://images.unsplash.com/1/type-away.jpg?q=80&fm=jpg" width="1200px" height="500px"
+                    alt="" />
+            </div>
+            <div class="card">
+                <h2 class="my-2">Join The Cricket Fun</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://ichef.bbci.co.uk/images/ic/1200xn/p0fqdslc.jpg" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket Bats</p>
+                            <p class="text-center my-1">Today 20% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="data:image/jpeg;base64,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"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket Helmets</p>
+                            <p class="text-center my-1">Today 15% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://im.rediff.com/cricket/2014/mar/27stumps1.jpg" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket Stumps</p>
+                            <p class="text-center my-1">Today 40% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://5.imimg.com/data5/SELLER/Default/2022/2/BV/UU/WA/14580777/test-match-cricket-leg-guard2-500x500.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket Pads</p>
+                            <p class="text-center my-1">Today 30% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwCi4GpVSwzmRO0aPJF5bDKx2akhNzDGSqFw&usqp=CAU"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket Gloves</p>
+                            <p class="text-center my-1">Today 50% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/151100/151110.7.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket Ball</p>
+                            <p class="text-center my-1">Today 45% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://modelhockey.com.pk/wp-content/uploads/2021/06/crickt-bat-crumpal.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Branded Bats</p>
+                            <p class="text-center my-1">Today 22% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <h2 class="my-2">Join The Food Fun</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="data:image/jpeg;base64,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"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Zinger-Burger</p>
+                            <p class="text-center my-1">Today 40% off</p>
+                            <p class="text-center my-1">Order know !</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698019200&semt=sph" width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Chicken Handi</p>
+                            <p class="text-center my-1">Today 15% off</p>
+                            <p class="text-center my-1">Order know !</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8fA%3D%3D" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Vegetable Achari</p>
+                            <p class="text-center my-1">Today 20% off</p>
+                            <p class="text-center my-1">Order know !</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Break-fast !</p>
+                            <p class="text-center my-1">Today 15% off !</p>
+                            <p class="text-center my-1">Order know !</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://plus.unsplash.com/premium_photo-1676202363496-d2dd5465312d?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGVsaWNpb3VzJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Protien Diet !</p>
+                            <p class="text-center my-1">Today 33% off !</p>
+                            <p class="text-center my-1">Order know !</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://cdn.britannica.com/36/123536-050-95CB0C6E/Variety-fruits-vegetables.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Vegetable Deals !</p>
+                            <p class="text-center my-1">Today 25% off !</p>
+                            <p class="text-center my-1">Order know !</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://domf5oio6qrcr.cloudfront.net/medialibrary/3440/conversions/w0714a16207251033667-thumb.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Chillies Plater !</p>
+                            <p class="text-center my-1">Today 42% off !</p>
+                            <p class="text-center my-1">Order know !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <h2 class="my-2">Join The Mobiles Fun</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">I-Series </p>
+                            <p class="text-center my-1">Today 20% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/samsung_smartphone_transparante_behuizing_1024x747.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">NoteBook9+</p>
+                            <p class="text-center my-1">Today 15% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgF9qoswjc5qC_SB6WPZqQaRoy8THXeVRf4ccheWbF3yk6Acl-qZy0BJnSzOnT2Mboms&usqp=CAU" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Samsung Glaxy</p>
+                            <p class="text-center my-1">Today 10% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://cdn.wallpapersafari.com/90/26/OZBGcY.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Glaxy Note-8</p>
+                            <p class="text-center my-1">Today 20% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSekuK0UC-PpeBNBLNniuwFgvJ0-EK8rwIFmKpCU0xTE5nGQYxVdOhX8mA3rcN6a_vTFI&usqp=CAU"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Glaxy flip </p>
+                            <p class="text-center my-1">Today 20% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vYmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">I phone 11 </p>
+                            <p class="text-center my-1">Today 15% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://www.gizmochina.com/wp-content/uploads/2019/02/iQOO-foldable-phone-4.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Japan kits</p>
+                            <p class="text-center my-1">Today 12% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <h2 class="my-2">Join The Cars Toys Fun</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/originals/77/23/7d/77237d7a2bc104a00edabc5800f68559.gif" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1"> GT-Etron </p>
+                            <p class="text-center my-1">Today 10% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/736x/2c/58/53/2c58532e113110454ddc9d0266c9d597.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">GTR Nissan </p>
+                            <p class="text-center my-1">Today 12% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/736x/f0/42/c7/f042c7773b9e2020e0dcce7198ed8679.jpg" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">GTR-2023 </p>
+                            <p class="text-center my-1">Today 8% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs9BIfaPPUt4FzGMqQRenzg9pDdzs6wpk1Lw&usqp=CAU"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Upgrade GTR </p>
+                            <p class="text-center my-1">Today 9% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://e1.pxfuel.com/desktop-wallpaper/274/858/desktop-wallpaper-3d-car-for-pc-unique-for-pc-full-screen-3d-for-pc-full-screen.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Ferrari </p>
+                            <p class="text-center my-1">Today 12% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://e0.pxfuel.com/wallpapers/809/934/desktop-wallpaper-live-car-for-pc-pk344-high-definition-car-thumbnail.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1"> F1 upgrade</p>
+                            <p class="text-center my-1">Today 5% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/originals/a8/a3/6b/a8a36b14dd8497eab1e87db8f127f638.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Audi i8 </p>
+                            <p class="text-center my-1">Today 12% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <h2 class="my-2">Join The Cats Fun</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://www.boredpanda.com/blog/wp-content/uploads/2016/10/worlds-most-beautiful-cats-1-57fb53b6755fc__700.jpg" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Persian cat</p>
+                            <p class="text-center my-1">Today 20% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://www.sheknows.com/wp-content/uploads/2018/12/ag4sur5e3tnyjduhyevd.jpeg?w=600"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">persian Beast</p>
+                            <p class="text-center my-1">Today 15% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://images.pexels.com/photos/3777622/pexels-photo-3777622.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Brazillian Cat</p>
+                            <p class="text-center my-1">Today 10% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw_To0ylWwhTspG3cLebPuklDybWGonLk_4g&usqp=CAU"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Germen cat</p>
+                            <p class="text-center my-1">Today 20% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://t4.ftcdn.net/jpg/03/03/62/45/360_F_303624505_u0bFT1Rnoj8CMUSs8wMCwoKlnWlh5Jiq.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Cats for Home </p>
+                            <p class="text-center my-1">Today 10% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://www.zooplus.co.uk/magazine/wp-content/uploads/2021/07/Outdoor-kitten-explores-the-garden.jpeg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">local Cat</p>
+                            <p class="text-center my-1">Today 45% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://image.petmd.com/files/styles/978x550/public/2022-06/lounging-cat.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">American Cat</p>
+                            <p class="text-center my-1">Today 12% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <h2 class="my-2">Join The Clothes Fun</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://st.depositphotos.com/1085342/1888/i/450/depositphotos_18885485-stock-photo-nothing-to-wear-concept-young.jpg" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Winter Deals</p>
+                            <p class="text-center my-1">Today 20% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://blog.stitchfix.com/wp-content/uploads/18-05-03_Set_1_W_OLD_v3_SQ.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Cotton Deals </p>
+                            <p class="text-center my-1">Today 15% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/564x/fb/13/60/fb1360958336dcdeb5a9a5a9f84f5935.jpg" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Zara Brand</p>
+                            <p class="text-center my-1">Today 10% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://www.danielle-moss.com/wp-content/uploads/2023/06/Vertical-Homepage-4.png"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Xella Brand</p>
+                            <p class="text-center my-1">Today 20% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/564x/8a/63/82/8a6382be633df70c091f75cda269f2db.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Boys Deal</p>
+                            <p class="text-center my-1">Today 30% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/736x/3b/a1/45/3ba1453118e2e4508451c88d40ad2b26.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Casual Dress</p>
+                            <p class="text-center my-1">Today 45% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/474x/5c/6f/fa/5c6ffa4474897dcf72e3c85c46545b0d.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1"> Tristan Brand </p>
+                            <p class="text-center my-1">Today 22% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <h2 class="my-2">Join The Bikes Fun</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://static.toiimg.com/photo/80452572.cms" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Yama y-1</p>
+                            <p class="text-center my-1">Today 10% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://www.cartoq.com/wp-content/uploads/2018/02/2018-Yamaha-R3-sportsbike-with-ABS.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Yama R-3</p>
+                            <p class="text-center my-1">Today 15% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://bd.gaadicdn.com/upload/modellogo/649bc0cf4b3f0.jpg" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Trimphu Bikes</p>
+                            <p class="text-center my-1">Today 10% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/236x/f8/09/d3/f809d3cc2511c345092561af6cb55cec.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Rs-Upgrade</p>
+                            <p class="text-center my-1">Today12% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://blog-cdn.el.olx.com.pk/wp-content/uploads/2022/05/19174218/BMW-s1000RR-1024x658.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1"> BMW-s1000</p>
+                            <p class="text-center my-1">Today 12% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://w0.peakpx.com/wallpaper/137/86/HD-wallpaper-mt15-motorcycle-motor-bike-bikes-racer-mt15-sport-bike-thumbnail.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Ninja h2E</p>
+                            <p class="text-center my-1">Today 15% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://www.southwestjournal.com/wp-content/uploads/2023/08/Fastest-Bikes-in-the-World-Two-Wheeled-Rockets.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">H2R</p>
+                            <p class="text-center my-1">Today 12% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="card">
+                <h2 class="my-2">Join The jewellry Fun</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/474x/da/5e/3f/da5e3f4b42c0312e1d3a3bd9e8338277.jpg" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Rings</p>
+                            <p class="text-center my-1">Today 10% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://manubhai.in/SocialMedia/post_artworks/TT-03-24Feb2023.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1"> Jellery Set</p>
+                            <p class="text-center my-1">Today 11% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://zeverat.pk/tpl_assets/2023/05/Gold-set-5.jpg" width="160px" height="160px"
+                            alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Gold set</p>
+                            <p class="text-center my-1">Today 9% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://i.pinimg.com/736x/b8/af/33/b8af339db5a64174f258250d05bf2e46.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Golden Locket</p>
+                            <p class="text-center my-1">Today 20% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZNKaw-j-Thb4kXUPLT9StR3Jl5Y6c4Lt9bA&usqp=CAU" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1"> Ears Balli</p>
+                            <p class="text-center my-1">Today 10% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://images.herzindagi.info/image/2019/Aug/floral-designs.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Golden Ring</p>
+                            <p class="text-center my-1">Today 5% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ring_Ruby.jpg/1200px-Ring_Ruby.jpg"
+                            width="160px" height="160px" alt="" />
+                        <div class="lines">
+                            <p class="text-center my-1">Dimond Ring</p>
+                            <p class="text-center my-1">Today 12% off</p>
+                            <p class="text-center my-1">Grab know</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; MyCart.com</p>
+    </footer>
+</body>
+
+</html>
